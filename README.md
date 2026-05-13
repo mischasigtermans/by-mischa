@@ -25,10 +25,6 @@ After adding the marketplace, install whichever plugins you want:
 
 Each plugin has its own README with full installation requirements and quick start. Personas requires Parley. Each persona plugin requires Personas, which requires Parley.
 
-## Adding to this marketplace
-
-Open a PR to this repo with your plugin entry added to `.claude-plugin/marketplace.json`. See the existing entries for the source-type pattern.
-
 ## License
 
 MIT. See [LICENSE](LICENSE). Each listed plugin keeps its own license; check the linked repo.
