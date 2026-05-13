@@ -1,6 +1,6 @@
 # By Mischa
 
-Marketplace for Mischa Sigtermans's Claude Code plugins. One marketplace add unlocks them all.
+Marketplace for my Claude Code plugins. One marketplace add unlocks them all.
 
 ```
 /plugin marketplace add mischasigtermans/by-mischa
@@ -8,13 +8,10 @@ Marketplace for Mischa Sigtermans's Claude Code plugins. One marketplace add unl
 
 ## What's here
 
-- **[Parley](https://github.com/mischasigtermans/parley)** — cross-session bridge. Each Claude Code project becomes a callable agent.
-- **[Personas](https://github.com/mischasigtermans/claude-personas/tree/main/manager)** — long-lived advisor personas with project-scoped threads and durable memory.
-- **[Steve Jobs](https://github.com/mischasigtermans/claude-personas/tree/main/personas/steve-jobs)** — persona advisor. Product, leadership, strategy.
-- **[Taylor Otwell](https://github.com/mischasigtermans/claude-personas/tree/main/personas/taylor-otwell)** — persona advisor. Laravel code reviews.
-- **[Raymond Hettinger](https://github.com/mischasigtermans/claude-personas/tree/main/personas/raymond-hettinger)** — persona advisor. Python code reviews.
-- **[David Tolnay](https://github.com/mischasigtermans/claude-personas/tree/main/personas/david-tolnay)** — persona advisor. Rust code reviews.
-- **[Ralph](https://github.com/mischasigtermans/ralph)** — autonomous loop runner.
+- **[Library](https://github.com/mischasigtermans/claude-library)**: local searchable mirror of your Claude chats, readable from any Code session.
+- **[Parley](https://github.com/mischasigtermans/claude-parley)**: talk to your other Claude Code projects from any session.
+- **[Personas](https://github.com/mischasigtermans/claude-personas)**: a growing library of field-expert advisors plus the dispatcher that runs them. Each persona installs as its own plugin; see the [Claude Personas index](https://github.com/mischasigtermans/claude-personas#personas) for the current set.
+- **[Ralph](https://github.com/mischasigtermans/claude-ralph)**: an opinionated take on the Ralph autonomous loop. Describe a feature, walk away, come back to commits.
 
 ## Installing a plugin
 

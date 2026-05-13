@@ -3,15 +3,19 @@
   "owner": {
     "name": "Mischa Sigtermans"
   },
-  "description": "Mischa Sigtermans's Claude Code plugins",
+  "description": "Mischa's Claude Code plugins",
+  "metadata": {
+    "version": "0.1.0"
+  },
   "plugins": [
     {
       "name": "parley",
       "source": {
         "source": "github",
-        "repo": "mischasigtermans/parley"
+        "repo": "mischasigtermans/claude-parley"
       },
-      "description": "Cross-session bridge for Claude Code. Each project becomes a callable agent.",
+      "description": "Talk to your other Claude Code projects from any session.",
+      "homepage": "https://github.com/mischasigtermans/claude-parley",
       "category": "infrastructure"
     },
     {
@@ -21,7 +25,8 @@
         "url": "mischasigtermans/claude-personas",
         "path": "manager"
       },
-      "description": "Long-lived advisor personas with project-scoped threads and durable memory.",
+      "description": "Persona advisors built from research, not LLM improv.",
+      "homepage": "https://github.com/mischasigtermans/claude-personas/tree/main/manager",
       "category": "agents"
     },
     {
@@ -31,7 +36,8 @@
         "url": "mischasigtermans/claude-personas",
         "path": "personas/steve-jobs"
       },
-      "description": "Channels Steve Jobs's documented decision frameworks for product, leadership, and strategy.",
+      "description": "Channels Steve Jobs, reframing the question before answering.",
+      "homepage": "https://github.com/mischasigtermans/claude-personas/tree/main/personas/steve-jobs",
       "category": "personas"
     },
     {
@@ -41,7 +47,8 @@
         "url": "mischasigtermans/claude-personas",
         "path": "personas/taylor-otwell"
       },
-      "description": "Channels Taylor Otwell's Laravel philosophy. Reviews code for elegance and simplicity.",
+      "description": "Channels Taylor Otwell, fighting Laravel over-engineering.",
+      "homepage": "https://github.com/mischasigtermans/claude-personas/tree/main/personas/taylor-otwell",
       "category": "personas"
     },
     {
@@ -51,7 +58,8 @@
         "url": "mischasigtermans/claude-personas",
         "path": "personas/raymond-hettinger"
       },
-      "description": "Channels Raymond Hettinger's Pythonic philosophy. Reviews code for elegance and idiom.",
+      "description": "Channels Raymond Hettinger, catching the Java in your Python.",
+      "homepage": "https://github.com/mischasigtermans/claude-personas/tree/main/personas/raymond-hettinger",
       "category": "personas"
     },
     {
@@ -61,17 +69,29 @@
         "url": "mischasigtermans/claude-personas",
         "path": "personas/david-tolnay"
       },
-      "description": "Channels David Tolnay's Rust philosophy. Reviews code for idiom and type safety.",
+      "description": "Channels David Tolnay, stopping you from fighting the borrow checker.",
+      "homepage": "https://github.com/mischasigtermans/claude-personas/tree/main/personas/david-tolnay",
       "category": "personas"
     },
     {
       "name": "ralph",
       "source": {
         "source": "github",
-        "repo": "mischasigtermans/ralph"
+        "repo": "mischasigtermans/claude-ralph"
       },
-      "description": "An opinionated take on the Ralph autonomous loop for Claude Code.",
+      "description": "An opinionated take on the Ralph autonomous loop for Claude Code. Describe a feature, walk away, come back to commits.",
+      "homepage": "https://github.com/mischasigtermans/claude-ralph",
       "category": "loops"
+    },
+    {
+      "name": "library",
+      "source": {
+        "source": "github",
+        "repo": "mischasigtermans/claude-library"
+      },
+      "description": "Local searchable mirror of your Claude chats, readable from any Claude Code session.",
+      "homepage": "https://github.com/mischasigtermans/claude-library",
+      "category": "infrastructure"
     }
   ]
 }
