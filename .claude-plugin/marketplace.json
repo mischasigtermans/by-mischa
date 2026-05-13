@@ -25,7 +25,7 @@
         "url": "mischasigtermans/claude-personas",
         "path": "manager"
       },
-      "description": "Persona advisors built from research, not LLM improv.",
+      "description": "Channel personas, expert advisors, from any Claude Code session.",
       "homepage": "https://github.com/mischasigtermans/claude-personas/tree/main/manager",
       "category": "agents"
     },
