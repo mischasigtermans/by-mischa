@@ -101,7 +101,7 @@
         "path": "plugins/development"
       },
       "description": "Development, UI, infrastructure and agent orchestration.",
-      "homepage": "https://github.com/mischasigtermans/skills",
+      "homepage": "https://github.com/mischasigtermans/skills/tree/main/plugins/development",
       "category": "development"
     },
     {
@@ -112,7 +112,7 @@
         "path": "plugins/writing"
       },
       "description": "Prose editing and Apple Mail drafts.",
-      "homepage": "https://github.com/mischasigtermans/skills",
+      "homepage": "https://github.com/mischasigtermans/skills/tree/main/plugins/writing",
       "category": "productivity"
     }
   ]
