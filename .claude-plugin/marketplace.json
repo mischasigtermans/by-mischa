@@ -5,7 +5,7 @@
   },
   "description": "Mischa's Claude Code plugins",
   "metadata": {
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
@@ -47,7 +47,7 @@
         "url": "mischasigtermans/claude-personas",
         "path": "personas/taylor-otwell"
       },
-      "description": "Channels Taylor Otwell, fighting Laravel over-engineering.",
+      "description": "Taylor Otwell as your Laravel reviewer: verdict first, grounded in your code and the framework source.",
       "homepage": "https://github.com/mischasigtermans/claude-personas/tree/main/personas/taylor-otwell",
       "category": "personas"
     },
@@ -89,9 +89,31 @@
         "source": "github",
         "repo": "mischasigtermans/claude-library"
       },
-      "description": "Local searchable mirror of your Claude chats, readable from any Claude Code session.",
+      "description": "Local searchable mirror of everything you have worked through with Claude, readable from any Claude Code session.",
       "homepage": "https://github.com/mischasigtermans/claude-library",
       "category": "infrastructure"
+    },
+    {
+      "name": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "mischasigtermans/skills",
+        "path": "plugins/development"
+      },
+      "description": "Development, UI, infrastructure and agent orchestration.",
+      "homepage": "https://github.com/mischasigtermans/skills",
+      "category": "development"
+    },
+    {
+      "name": "writing",
+      "source": {
+        "source": "git-subdir",
+        "url": "mischasigtermans/skills",
+        "path": "plugins/writing"
+      },
+      "description": "Prose editing and Apple Mail drafts.",
+      "homepage": "https://github.com/mischasigtermans/skills",
+      "category": "productivity"
     }
   ]
 }
