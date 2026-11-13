@@ -92,28 +92,6 @@
       "description": "Local searchable mirror of everything you have worked through with Claude, readable from any Claude Code session.",
       "homepage": "https://github.com/mischasigtermans/claude-library",
       "category": "infrastructure"
-    },
-    {
-      "name": "development",
-      "source": {
-        "source": "git-subdir",
-        "url": "mischasigtermans/skills",
-        "path": "plugins/development"
-      },
-      "description": "Development, UI, infrastructure and agent orchestration.",
-      "homepage": "https://github.com/mischasigtermans/skills/tree/main/plugins/development",
-      "category": "development"
-    },
-    {
-      "name": "writing",
-      "source": {
-        "source": "git-subdir",
-        "url": "mischasigtermans/skills",
-        "path": "plugins/writing"
-      },
-      "description": "Prose editing and Apple Mail drafts.",
-      "homepage": "https://github.com/mischasigtermans/skills/tree/main/plugins/writing",
-      "category": "productivity"
     }
   ]
 }
