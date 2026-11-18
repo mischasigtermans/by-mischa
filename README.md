@@ -8,6 +8,7 @@ Marketplace for my Claude plugins. One marketplace add unlocks them all.
 
 ## What's here
 
+- **[Altitude](https://github.com/mischasigtermans/altitude)**: an opinionated way of building with Claude Code. Workflow skills, review agents and hooks that hold the line. Laravel-first, works in any repo.
 - **[Library](https://github.com/mischasigtermans/claude-library)**: local searchable mirror of everything you have worked through with Claude, readable from any Claude Code session.
 - **[Parley](https://github.com/mischasigtermans/claude-parley)**: talk to your other Claude Code projects from any session.
 - **[Personas](https://github.com/mischasigtermans/claude-personas)**: a growing library of field-expert advisors plus the dispatcher that runs them. Each persona installs as its own plugin; see the [Claude Personas index](https://github.com/mischasigtermans/claude-personas#personas) for the current set.
