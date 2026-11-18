@@ -92,6 +92,16 @@
       "description": "Local searchable mirror of everything you have worked through with Claude, readable from any Claude Code session.",
       "homepage": "https://github.com/mischasigtermans/claude-library",
       "category": "infrastructure"
+    },
+    {
+      "name": "altitude",
+      "source": {
+        "source": "github",
+        "repo": "mischasigtermans/altitude"
+      },
+      "description": "An opinionated way of building with Claude Code: workflow skills, review agents and hooks that hold the line. Laravel-first, works in any repo.",
+      "homepage": "https://github.com/mischasigtermans/altitude",
+      "category": "development"
     }
   ]
 }
